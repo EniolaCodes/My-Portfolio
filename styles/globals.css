@@ -24,10 +24,6 @@
     }
 
     button{
-        @apply shadow-xl shadow-gray-400 rounded-xl uppercase text-white bg-gradient-to-r from-custom-purple to-custom-blue
-    }
+        @apply shadow-xl shadow-gray-400 rounded-xl uppercase text-white bg-gradient-to-r from-[#D3A43E] to-[#161003]
 }
-
-
-/* bg-gradient-to-r from-[#5651e5] to -[#709dff]  */
-/* bg-gradient-to-r from-custom-purple to-custom-blue */
+}
