@@ -19,9 +19,17 @@ const Trackage = () => {
         <div className='col-span-4'>
             <p>Project</p>
             <h2>Overview</h2>
-            <p></p>
-            <button className='px-8 py-2 mt-8 mr-8'>Demo</button>
-            <button className='px-8 py-2 mt-8'>Code</button>
+            <p> This web application, built with Next.js and deployed on Vercel, offers several features to manage packages and connect with 
+              support. Admins can generate unique tracking IDs to monitor packages throughout the system. Users can chat with a support
+               system that uses simulations to answer anticipated questions. While a Google Maps API is integrated for development purposes,
+                it may not be available in the final product. Navigation between different parts of the application is handled by react-router. </p>
+           <Link href="https://trackage.vercel.app/">
+           <button className='px-8 py-2 mt-8 mr-8'>Demo</button>
+           </Link> 
+           <Link href="https://github.com/EniolaCodes/trackage.git">
+           <button className='px-8 py-2 mt-8'>Code</button>
+           </Link>
+            
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='p-2'>

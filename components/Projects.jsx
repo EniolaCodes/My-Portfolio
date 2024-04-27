@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import LogisticsImg from '../public/assets/projects/logistics.PNG';
+import WeatherImg from '../public/assets/projects/weather.PNG'
 
 const Projects = () => {
   return (
@@ -12,34 +13,15 @@ const Projects = () => {
           <ProjectItem
             title="Tracking Website"
             backgroundImg={LogisticsImg}
-            tech="Next.js, Tailwind CSS"
+            tech="Next.js, Tailwind"
             projectUrl="/trackage"
           />
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={LogisticsImg}
-            tech="React, Next.js, Tailwind CSS"
+            title="Weather App"
+            backgroundImg={WeatherImg}
+            tech="React, Vanilla css, OpenWeatherMap API"
             projectUrl="/weather"
           />
-          <ProjectItem
-            title="Property Finder"
-            backgroundImg={LogisticsImg}
-            tech="React, Next.js, Tailwind CSS"
-            projectUrl="/property"
-          />
-          <ProjectItem
-            title="Property Finder"
-            backgroundImg={LogisticsImg}
-            tech="React, Next.js, Tailwind CSS"
-            projectUrl="/property"
-          />
-          <ProjectItem
-            title="Property Finder"
-            backgroundImg={LogisticsImg}
-            tech="React, Next.js, Tailwind CSS"
-            projectUrl="/property"
-          />
-         
         </div>
       </div>
     </div>
