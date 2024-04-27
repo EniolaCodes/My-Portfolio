@@ -7,9 +7,8 @@ import Nextjs from '../public/assets/skills/nextjs.png';
 import React from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Javascript from '../public/assets/skills/javascript.png';
-import Mongo from '../public/assets/skills/mongo.png';
 import Node from '../public/assets/skills/node.png';
-import Firebase from '../public/assets/skills/firebase.png';
+
 
 const Skills = () => {
   return (
@@ -25,9 +24,8 @@ const Skills = () => {
       <Skill Image={<Image src={Tailwind} width={64} height={64} alt='/'/>}>Tailwind</Skill>
       <Skill Image={<Image src={React} width={64} height={64} alt='/'/>}>React</Skill>
       <Skill Image={<Image src={Node} width={64} height={64} alt='/'/>}>Node</Skill>
-      <Skill Image={<Image src={Nextjs} width={64} height={64} alt='/'/>}>Next</Skill>
-      <Skill Image={<Image src={Mongo} width={64} height={64} alt='/'/>}> Mongo</Skill>
-      <Skill Image={<Image src={Firebase} width={64} height={64} alt='/'/>}>Firebase</Skill>
+      <Skill Image={<Image src={Nextjs} width={64} height={64} alt='/'/>}>Next Js</Skill>
+     
       </div>
       </div>
     </div>

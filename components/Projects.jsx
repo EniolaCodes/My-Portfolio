@@ -13,13 +13,13 @@ const Projects = () => {
             title="Tracking Website"
             backgroundImg={LogisticsImg}
             tech="Next.js, Tailwind CSS"
-            projectUrl="/property"
+            projectUrl="/trackage"
           />
           <ProjectItem
             title="Property Finder"
             backgroundImg={LogisticsImg}
             tech="React, Next.js, Tailwind CSS"
-            projectUrl="/property"
+            projectUrl="/weather"
           />
           <ProjectItem
             title="Property Finder"
