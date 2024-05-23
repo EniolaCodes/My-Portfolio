@@ -1,7 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import LogisticsImg from "../public/assets/projects/logistics.PNG";
-import WeatherImg from "../public/assets/projects/weather.PNG";
+import WeatherImg from "../public/assets/projects/WeatherImg.PNG";
+import QuizImg from "../public/assets/projects/quiz.PNG";
 
 const Projects = () => {
 	return (
@@ -23,6 +24,12 @@ const Projects = () => {
 						backgroundImg={WeatherImg}
 						tech="React, Vanilla css, OpenWeatherMap API"
 						projectUrl="/weather"
+					/>
+					<ProjectItem
+						title="Quiz App"
+						backgroundImg={QuizImg}
+						tech="JavaScript, Vanilla css"
+						projectUrl="/quiz"
 					/>
 				</div>
 			</div>
