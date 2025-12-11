@@ -16,10 +16,6 @@ Welcome to my portfolio! This space showcases my journey as a **Frontend Develop
 - **Tools:** Git, GitHub, Figma, VS Code
 - **Practices:** Responsive design, accessibility, performance optimization, teamwork in agile environments
 
-Here’s the updated **Other Projects** section for your README, with the two projects included:
-
----
-
 ## 📂 Other Projects
 
 ### 📝 Quiz App
@@ -44,3 +40,4 @@ A **React-powered Weather App**, hosted on **Vercel**, that lets users explore r
 
 - **LinkedIn:** [https://www.linkedin.com/in/fatimah-adebimpe-441b10145/]
 - **GitHub:** [https://github.com/EniolaCodes]
+- **Email:** [adebimpeniola@gmail.com]
