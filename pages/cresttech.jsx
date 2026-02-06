@@ -24,25 +24,25 @@ const CrestTech = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2 className="mb-6">Overview</h2>
-          <p>
-            {" "}
-            CrestTech Hub is an online learning platform that helps learners
-            gain in-demand tech skills affordably. It offers live interactive
-            classes, expert mentorship, hands-on projects, and real-world
-            training opportunities. Learners can build portfolios, connect with
-            industry professionals, and access internships through the platform.
-            The project was developed collaboratively by a team of designers,
-            backend engineers, and frontend developers. I contributed as a
-            frontend developer, focusing on building responsive, accessible, and
-            user-friendly interfaces. My work involved translating design
-            mockups into functional web pages and ensuring smooth navigation
-            across devices. I also collaborated with backend developers to
-            integrate APIs for live classes and mentorship features. Testing and
-            debugging were key parts of my role to deliver a polished interface.
-            The teamwork fostered agile collaboration and strengthened my
-            communication skills. Ultimately, CrestTech Hub became a scalable
-            platform that empowers learners to advance their careers in
-            technology.
+          <p className="text-gray-700 leading-relaxed">
+            <strong>CrestTech Hub</strong> is an emerging EdTech ecosystem
+            designed to provide affordable access to in-demand tech skills.
+            Currently in <strong>active development</strong>, the platform is
+            being built to host live interactive sessions, expert mentorship
+            tracks, and hands-on project management for aspiring developers.
+          </p>
+          <br />
+          <p className="text-gray-700 leading-relaxed">
+            Serving as a <strong>Frontend Developer</strong> within a
+            cross-functional team, my focus is on architecting a{" "}
+            <strong>scalable component library</strong> and ensuring seamless
+            navigation across the platform&apos;s core modules. I am responsible
+            for translating design mockups into responsive interfaces and
+            <strong> structuring the frontend architecture</strong> to support
+            upcoming API integrations for mentorship and live-streaming
+            features. This collaborative process emphasizes Agile methodologies,
+            ensuring the UI is polished and accessible as the platform evolves
+            toward its full release.
           </p>
           <Link href="https://www.cresttech.org/">
             <button className="px-8 py-2 mt-8 mr-8">Demo</button>

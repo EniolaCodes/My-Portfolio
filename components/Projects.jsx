@@ -5,6 +5,7 @@ import WeatherImg from "../public/assets/projects/WeatherImg.PNG";
 import QuizImg from "../public/assets/projects/quiz.PNG";
 import CrestTechImg from "../public/assets/projects/cresttech.png";
 import coffeeImg from "../public/assets/projects/coffeeImg.png";
+import linkImg from "../public/assets/projects/linkImg.png";
 
 const Projects = () => {
   return (
@@ -14,7 +15,25 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I Have Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
+          <ProjectItem
+            title="Coffee Shop App"
+            backgroundImg={coffeeImg}
+            tech="React Native With Expo, NativeWind, Lucide React Native"
+            projectUrl="/coffee"
+          />
+          <ProjectItem
+            title="CrestTech Hub Website"
+            backgroundImg={CrestTechImg}
+            tech="React, Tailwindcss, Framer-Motion, React-query"
+            projectUrl="/cresttech"
+          />
+          <ProjectItem
+            title="Link Sharing Website"
+            backgroundImg={linkImg}
+            tech="Next.js, TypeScript, Firebase, Tailwindcss"
+            projectUrl="/links"
+          />
           <ProjectItem
             title="Tracking Website"
             backgroundImg={LogisticsImg}
@@ -33,18 +52,6 @@ const Projects = () => {
             tech="JavaScript, Vanilla css"
             projectUrl="/quiz"
           /> */}
-          <ProjectItem
-            title="Coffee Shop App"
-            backgroundImg={coffeeImg}
-            tech="React Native With Expo, NativeWind, Lucide React Native"
-            projectUrl="/coffee"
-          />
-          <ProjectItem
-            title="CrestTech Hub Website"
-            backgroundImg={CrestTechImg}
-            tech="React, Tailwindcss, Framer-Motion, React-query"
-            projectUrl="/cresttech"
-          />
         </div>
       </div>
     </div>

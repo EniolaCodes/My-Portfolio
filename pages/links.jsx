@@ -1,18 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import coffeeImg from "../public/assets/projects/coffeeImg.png";
+import linkImg from "../public/assets/projects/linkImg.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Coffee = () => {
+const Links = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/40 z-10" />
-        <Image className="absolute z-1" layout="fill" src={coffeeImg} alt="/" />
+        <Image className="absolute z-1" layout="fill" src={linkImg} alt="/" />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Coffee Shop App</h2>
-          <h3>React Native / Expo / NativeWind / Lucide React Native</h3>
+          <h2 className="py-2">Link Sharing Website</h2>
+          <h3>Next.js / TypeScript / Firebase / TailwindCSS</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -20,25 +20,25 @@ const Coffee = () => {
           <p>Project</p>
           <h2 className="mb-6">Overview</h2>
           <p className="text-gray-700 leading-relaxed">
-            A delightful mobile application for coffee lovers, built with
-            <strong> React Native </strong> and <strong>Expo</strong>. Discover,
-            order, and enjoy premium coffee beverages with a seamless user
-            experience.
+            Nexus is a professional link-sharing platform designed specifically
+            for developers. Built with <strong>Next.js 14</strong> and{" "}
+            <strong>Firebase</strong>, this application features a real-time
+            WYSIWYG editor that syncs seamlessly with a live mobile preview.
           </p>
           <br />
           <p className="text-gray-700 leading-relaxed">
-            I focused heavily on <strong>Mobile UX/UI optimization</strong>,
-            ensuring that complex checkout flows remain responsive and visually
-            engaging on both iOS and Android devices. This architecture allows
-            users to browse a variety of coffee options and customize their
-            orders seamlessly. With smooth navigation and appealing visuals, the
-            Coffee Shop app enhances the ordering experience for users on the
-            go.
+            A key technical focus was data integrity; I implemented custom{" "}
+            <strong>Regex validation</strong>
+            to ensure all user-submitted social links are sanitized and
+            correctly formatted. Furthermore, the platform adheres to{" "}
+            <strong>A11y (Accessibility)</strong> standards, utilizing semantic
+            HTML and high-contrast touch targets to ensure a professional
+            experience for all users.
           </p>
-          <Link href="https://youtube.com/shorts/3VtcsxWn4Kg?feature=share">
-            <button className="px-8 py-2 mt-8 mr-8">Watch Demo</button>
+          <Link href="https://alx-project-nexus-delta-one.vercel.app">
+            <button className="px-8 py-2 mt-8 mr-8">Demo</button>
           </Link>
-          <Link href="https://github.com/EniolaCodes/alx-coffee-shop-app.git">
+          <Link href="https://github.com/EniolaCodes/alx-project-nexus.git">
             <button className="px-8 py-2 mt-8">Code</button>
           </Link>
         </div>
@@ -48,19 +48,23 @@ const Coffee = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React Native
+                Nextjs
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Expo
+                TypeScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                NativeWind
+                Firebase
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Lucide React Native
+                Tailwindcss
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Context API
               </p>
             </div>
           </div>
@@ -73,4 +77,4 @@ const Coffee = () => {
   );
 };
 
-export default Coffee;
+export default Links;
