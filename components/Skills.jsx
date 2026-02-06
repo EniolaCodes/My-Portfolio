@@ -9,6 +9,7 @@ import Tailwind from "../public/assets/skills/tailwind.png";
 import Javascript from "../public/assets/skills/javascript.png";
 import Node from "../public/assets/skills/node.png";
 import TypeScript from "../public/assets/skills/typescript.jpeg";
+import Expo from "../public/assets/skills/expo.png";
 
 const Skills = () => {
   return (
@@ -52,6 +53,9 @@ const Skills = () => {
             Image={<Image src={TypeScript} width={64} height={64} alt="/" />}
           >
             TypeScript
+          </Skill>
+          <Skill Image={<Image src={Expo} width={100} height={100} alt="/" />}>
+            React Native
           </Skill>
         </div>
       </div>

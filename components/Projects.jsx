@@ -4,6 +4,7 @@ import LogisticsImg from "../public/assets/projects/logistics.PNG";
 import WeatherImg from "../public/assets/projects/WeatherImg.PNG";
 import QuizImg from "../public/assets/projects/quiz.PNG";
 import CrestTechImg from "../public/assets/projects/cresttech.png";
+import coffeeImg from "../public/assets/projects/coffeeImg.png";
 
 const Projects = () => {
   return (
@@ -26,11 +27,17 @@ const Projects = () => {
             tech="React, Vanilla css, OpenWeatherMap API"
             projectUrl="/weather"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Quiz App"
             backgroundImg={QuizImg}
             tech="JavaScript, Vanilla css"
             projectUrl="/quiz"
+          /> */}
+          <ProjectItem
+            title="Coffee Shop App"
+            backgroundImg={coffeeImg}
+            tech="React Native With Expo, NativeWind, Lucide React Native"
+            projectUrl="/coffee"
           />
           <ProjectItem
             title="CrestTech Hub Website"
