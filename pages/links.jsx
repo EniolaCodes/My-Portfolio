@@ -28,12 +28,11 @@ const Links = () => {
           <br />
           <p className="text-gray-700 leading-relaxed">
             A key technical focus was data integrity; I implemented custom{" "}
-            <strong>Regex validation</strong>
-            to ensure all user-submitted social links are sanitized and
-            correctly formatted. Furthermore, the platform adheres to{" "}
-            <strong>A11y (Accessibility)</strong> standards, utilizing semantic
-            HTML and high-contrast touch targets to ensure a professional
-            experience for all users.
+            <strong>Regex validation</strong> to ensure all user-submitted
+            social links are sanitized and correctly formatted. Furthermore, the
+            platform adheres to <strong>A11y (Accessibility)</strong> standards,
+            utilizing semantic HTML and high-contrast touch targets to ensure a
+            professional experience for all users.
           </p>
           <Link href="https://alx-project-nexus-delta-one.vercel.app">
             <button className="px-8 py-2 mt-8 mr-8">Demo</button>
