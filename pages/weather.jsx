@@ -29,7 +29,7 @@ const Weather = () => {
             <strong>React</strong> and deployed on <strong>Vercel</strong>,
             provides users with hyper-local atmospheric data and predictive
             insights. The application interfaces with the{" "}
-            <strong>OpenWeatherMap API{""}</strong>
+            <strong>OpenWeatherMap API{""} </strong>
             {""}
             to deliver high-fidelity, real-time metrics including wind velocity,
             humidity levels, and precise 5-day temperature trends.
