@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ProfilePic from "../public/assets/profile_pic.png";
+import ProfilePic from "../public/assets/eniola-red.jpeg";
 import Link from "next/link";
 
 const About = () => {
